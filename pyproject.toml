@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "krouth-flask"
+name = "site"
 version = "0.1.0"
 description = ""
 authors = ["DouglasKrouth <douglaskrouth@gmail.com>"]
