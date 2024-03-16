@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    {% endblock %}
+  </head>
+  <body>
+      <div class="navbar">
+        <img class="dk_logo" src="../static/images/dk_initial.png">
+            <ul class="navbar_link_collection">
+                <li class="navbar_link">About</li>
+                <li class="navbar_link">Stuff</li>
+                <li class="navbar_link">Contact</li>
+            </ul>
+        <p>
+        </p>
+      </div>
+  </body>
+</html>

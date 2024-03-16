@@ -1,0 +1,19 @@
+@import url("base.css");
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.dk_logo {
+    height: 10%;
+    width: 10%;
+}
+
+.navbar_link {
+    list-style-type: none; /* Remove bullets */
+    border-style: solid;
+    display: inline;
+}

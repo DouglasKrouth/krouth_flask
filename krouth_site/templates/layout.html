@@ -2,11 +2,12 @@
 <html>
   <head>
     {% block head %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>{% block title %}{% endblock %} - Douglas Krouth</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+    <title>{% block title %}{% endblock %} - DK</title>
     {% endblock %}
   </head>
   <body>
+    {% include "navbar.html" %}
     <div id="content">{% block content %}{% endblock %}</div>
     <div id="footer">
       {% block footer %}
