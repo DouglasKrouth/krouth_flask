@@ -2,18 +2,40 @@
 
 .navbar {
     display: flex;
-    justify-content: center;
+    /* flex-direction: column; */
+    flex-basis: 0 0 auto;
     align-items: center;
-    background-color: orange;
+    /* justify-content: center; */
+    background-color: gray;
+    border-style: solid;
+
 }
 
 .dk_logo {
-    height: 10%;
-    width: 10%;
+    height: 4em;
+    /* border-style: solid; */
+}
+
+.social_media_logo_collection {
+    display: flex;
+}
+
+.social_media_logo {
+    height: 2em;
+    padding: .5em;
+}
+
+
+
+.navbar_link_collection {
+    display: flex;
+    text-align: center;
+    list-style-position: inside;
+
 }
 
 .navbar_link {
     list-style-type: none; /* Remove bullets */
-    border-style: solid;
-    display: inline;
+    margin-left: 0;
+    padding-right: 1.5em;
 }
