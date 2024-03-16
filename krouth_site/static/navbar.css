@@ -1,41 +1,39 @@
-@import url("base.css");
-
 .navbar {
     display: flex;
-    /* flex-direction: column; */
-    flex-basis: 0 0 auto;
-    align-items: center;
-    /* justify-content: center; */
-    background-color: gray;
-    border-style: solid;
+}
 
+.navbar div:last-child {
+    margin-left: auto;
 }
 
 .dk_logo {
     height: 4em;
-    /* border-style: solid; */
+    margin-left: -2em;
 }
-
-.social_media_logo_collection {
-    display: flex;
-}
-
-.social_media_logo {
-    height: 2em;
-    padding: .5em;
-}
-
 
 
 .navbar_link_collection {
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
     list-style-position: inside;
-
 }
 
 .navbar_link {
     list-style-type: none; /* Remove bullets */
     margin-left: 0;
     padding-right: 1.5em;
+}
+
+.social_media_logo_collection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1em;
+    /* border-style: solid; */
+}
+
+.social_media_logo {
+    height: 2em;
+    padding: .5em;
 }

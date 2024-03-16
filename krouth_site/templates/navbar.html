@@ -7,16 +7,16 @@
   </head>
   <body>
       <div class="navbar">
-        <img class="dk_logo" src="../static/images/dk_initial.png">
             <ul class="navbar_link_collection">
-                <li class="navbar_link">About</li>
-                <li class="navbar_link">Stuff</li>
-                <li class="navbar_link">Contact</li>
+                <a href="{{ url_for('index') }}"><img class="dk_logo" src="../static/images/dk_initial.png">
+                <li class="navbar_link"><a href="{{ url_for('about') }}">About</a></li>
+                <li class="navbar_link"><a href="{{ url_for('stuff') }}">Stuff</a></li>
             </ul>
             <div class="social_media_logo_collection">
-                <img class="social_media_logo" src="../static/images/github_logo.png">
-                <img class="social_media_logo" src="../static/images/linkedin_logo.png">
-            </div>
+                <a href="https://github.com/DouglasKrouth"><img class="social_media_logo" src="../static/images/github_logo.png"></a>
+                <a href="https://www.linkedin.com/in/douglaskrouth/"><img class="social_media_logo" src="../static/images/linkedin_logo.png"></a>
+                <a href="mailto: douglaskrouth@gmail.com"><img class="social_media_logo" src="../static/images/email_logo.png"></a>
+        </div>
       </div>
   </body>
 </html>
