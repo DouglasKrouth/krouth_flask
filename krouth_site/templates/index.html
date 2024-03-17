@@ -2,9 +2,28 @@
 {% block head %}
   {{ super() }}
   <title>Douglas Krouth</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='home_page.css') }}">
 {% endblock %}
 {% block content %}
-  <h1>Douglas Krouth</h1>
-  <p class="important">
-    Welcome on my awesome homepage.
+  <div class="split_home_page">
+        <div class="split_home_page_section"> 
+        <div class="home_page_about_text">
+            <h1>Howdy, my name is Douglas!</h1>
+            <h3>I'm a Minneapolis-based software developer who plays the guitar.</h3>
+            <table class="home_page_about_table">
+              <tr class="home_page_about_table_row">
+                <td class="home_page_about_table_key">Currently Reading : </td>
+                <td class="home_page_about_table_value">"Beethoven: A Life" by Jan Caeyers</td>
+              </tr>
+              <tr class="home_page_about_table_row">
+                <td class="home_page_about_table_key">Listening To : </td>
+                <td class="home_page_about_table_value">A ton of Stevie Wonder, Gojira</td>
+              </tr>
+            </table>
+        </div>
+        </div>
+        <div class="split_home_page_section"> 
+            <img class="home_page_photo" alt="Doug and Cosmo posing for a picture." src="../static/images/home_page/doug_and_cosmo.jpeg">
+        </div>
+  </div>
 {% endblock %}

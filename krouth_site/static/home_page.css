@@ -1,0 +1,38 @@
+@import url("base.css");
+
+.split_home_page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.split_home_page > * {
+    flex-grow: 1;
+    flex-basis: 250px;
+    /* border-style: solid; */
+}
+
+.split_home_page_section {
+    display:flex;
+    justify-content: center;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.home_page_about_table {
+    border-spacing: 0 .75em;    
+}
+
+.home_page_about_table_key {
+    font-weight: 500;
+}
+
+.home_page_about_table_value {
+    font-weight: 400;
+}
+
+.home_page_photo {
+    width: 500px;
+    border-radius: 10px;
+}
