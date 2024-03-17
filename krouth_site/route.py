@@ -1,9 +1,8 @@
-
-
-@app.route('/')
+@app.route("/")
 def index():
-    return 'Index Page'
+    return "Index Page"
 
-@app.route('/hello')
+
+@app.route("/hello")
 def hello():
-    return 'Hello, World'
+    return "Hello, World"
