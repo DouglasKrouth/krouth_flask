@@ -4,13 +4,16 @@
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
     {% endblock %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
       <div class="navbar">
             <ul class="navbar_link_collection">
                 <a href="{{ url_for('index') }}"><img class="dk_logo" src="../static/images/general/dk_initial.png">
-                <li class="navbar_link"><a href="{{ url_for('about') }}">About</a></li>
-                <li class="navbar_link"><a href="{{ url_for('stuff') }}">Stuff</a></li>
+                <li class="navbar_link"><a class="navbar_link_text" href="{{ url_for('about') }}">About</a></li>
+                <li class="navbar_link"><a class="navbar_link_text" href="{{ url_for('stuff') }}">Stuff</a></li>
             </ul>
             <div class="social_media_logo_collection">
                 <a href="https://github.com/DouglasKrouth"><img class="social_media_logo" src="../static/images/navbar/github_logo.png"></a>

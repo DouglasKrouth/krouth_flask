@@ -1,4 +1,18 @@
 body {
     background-color: white;
-    margin: 1%
+    margin: 1%;
+    font-family: "Roboto", Arial, Verdana, Trebuchet MS;
+}
+
+.content {
+    margin: 2.5%;
+    background-color: white;
+    position: relative;
+    min-height: 100vh;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    height: 2.5rem;
 }

@@ -1,4 +1,5 @@
 .navbar {
+    margin-top: -1em;
     display: flex;
 }
 
@@ -25,6 +26,16 @@
     padding-right: 1.5em;
 }
 
+.navbar_link_text {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Serif", "Times New Roman", Helvetica, Georgia
+}
+
+.navbar_link_text:hover {
+    text-decoration: underline;
+}
+
 .social_media_logo_collection {
     display: flex;
     align-items: center;
@@ -36,4 +47,10 @@
 .social_media_logo {
     height: 2em;
     padding: .5em;
+    border-radius: 15px;
+}
+
+.social_media_logo:hover {
+    background-color: #C1CACC;
+    border-radius: 15px;
 }
