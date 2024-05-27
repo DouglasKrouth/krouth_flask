@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "site"
+name = "krouth_site"
 version = "0.1.0"
 description = ""
 authors = ["DouglasKrouth <douglaskrouth@gmail.com>"]
@@ -8,7 +8,6 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.2"
-spotipy = "^2.23.0"
 python-dotenv = "^1.0.1"
 
 
